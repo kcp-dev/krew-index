@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: create-workspace
 spec:
-  version: v0.27.0
+  version: v0.27.1
   platforms:
     - bin: bin/kubectl-create-workspace.exe
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.0/kubectl-create-workspace-plugin_0.27.0_windows_arm64.tar.gz
-      sha256: 5ec579af4ba8004988f021b756f2920a89ec4ba536bf299d21e3a14a7441890e
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.1/kubectl-create-workspace-plugin_0.27.1_windows_arm64.tar.gz
+      sha256: 38d6c0746baefee29de5a5a483e2ddbf675d5f9df8d910b33e40c8c3e6022897
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: bin/kubectl-create-workspace.exe
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.0/kubectl-create-workspace-plugin_0.27.0_windows_amd64.tar.gz
-      sha256: 20c8cc6e978a1c0e983cf8684be340427aa9e81ea490b91ae1ef9bbd4bb9750c
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.1/kubectl-create-workspace-plugin_0.27.1_windows_amd64.tar.gz
+      sha256: d30ef365603cc1b4a3209441a1dff5474a9f251ece607f49e6a1164df3e5faed
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: bin/kubectl-create-workspace
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.0/kubectl-create-workspace-plugin_0.27.0_linux_arm64.tar.gz
-      sha256: 497f3fd8a93c6170045df934a461e1dbd6ea5b843d5eba0307db4db789fe100a
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.1/kubectl-create-workspace-plugin_0.27.1_linux_arm64.tar.gz
+      sha256: dc515e4598f433e6d92567595968f0e171061e116a95c46c0a47050114f2a7bd
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: bin/kubectl-create-workspace
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.0/kubectl-create-workspace-plugin_0.27.0_linux_amd64.tar.gz
-      sha256: 4631e5faab42ed28111d30f38258979ffa7278834d5bbad20687804abbce06b7
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.1/kubectl-create-workspace-plugin_0.27.1_linux_amd64.tar.gz
+      sha256: 4f2a1242ebfbfbdfb17269ce6318ce2b9e961886c17661f08b77015b578f72df
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: bin/kubectl-create-workspace
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.0/kubectl-create-workspace-plugin_0.27.0_darwin_arm64.tar.gz
-      sha256: f10eb8e56cac6368ceceb9f36e74ea3f92dd3f87e7e0f5fdb44e18719ba29e1f
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.1/kubectl-create-workspace-plugin_0.27.1_darwin_arm64.tar.gz
+      sha256: 6c56cb72432765bee362a9ad4631121538c2b81c05be3e9b57fd8e461646656c
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: bin/kubectl-create-workspace
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.0/kubectl-create-workspace-plugin_0.27.0_darwin_amd64.tar.gz
-      sha256: 558fe57e2ddc0f5f95983041bf9e30510f6333a0963ee1ef5b84a4ddf02ba4b7
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.27.1/kubectl-create-workspace-plugin_0.27.1_darwin_amd64.tar.gz
+      sha256: 810e2f1fcabf982420f1823bdeed130533be07ab9c9a063d40866b23acffa229
       selector:
         matchLabels:
           os: darwin
