@@ -4,51 +4,51 @@ kind: Plugin
 metadata:
   name: ws
 spec:
-  version: v0.30.3
+  version: v0.31.0
   platforms:
     - bin: bin/kubectl-ws.exe
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.30.3/kubectl-ws-plugin_0.30.3_windows_arm64.tar.gz
-      sha256: f5ab17eed2ee6666afc2d09adb4ae2e9b28f3ecfb0eba557a63a30487f2acb7a
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.0/kubectl-ws-plugin_0.31.0_windows_arm64.tar.gz
+      sha256: 30606e0f87056ce16c589a6743f55fab8622f9d17be5d5cdca3b1ca5c156924b
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: bin/kubectl-ws.exe
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.30.3/kubectl-ws-plugin_0.30.3_windows_amd64.tar.gz
-      sha256: ee8dfb3e67d2e17aff380bbca62c2e0c1ec2d00349a1dd1fbc3d30d1bcb93dcb
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.0/kubectl-ws-plugin_0.31.0_windows_amd64.tar.gz
+      sha256: f51933c90c9a85576d5d7952b1adfe35c9c98a18a920b3bf66da72f73ca21207
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: bin/kubectl-ws
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.30.3/kubectl-ws-plugin_0.30.3_linux_arm64.tar.gz
-      sha256: d71a5621f50aa394836d6bfa3c80b267ea4de169e5e4be86c0fab629e42868f2
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.0/kubectl-ws-plugin_0.31.0_linux_arm64.tar.gz
+      sha256: 65da462bf450a4ac3ba9adf143f1d47e61f0e59c3abbc8e2a8a76b4c18d7b9c3
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: bin/kubectl-ws
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.30.3/kubectl-ws-plugin_0.30.3_linux_amd64.tar.gz
-      sha256: 176c3824c0ce525abeb248a6970952c91cd9e795f527f2ae1400aec374fcbb12
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.0/kubectl-ws-plugin_0.31.0_linux_amd64.tar.gz
+      sha256: 606930eeb66ce8d0e5990671cbee0b1e204878b733f7d623c0fa9ab358db98a9
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: bin/kubectl-ws
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.30.3/kubectl-ws-plugin_0.30.3_darwin_arm64.tar.gz
-      sha256: 4cb9dec912d2d10b8d681abae9cd5bd9786146f9de86ef34391e6440ab3df201
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.0/kubectl-ws-plugin_0.31.0_darwin_arm64.tar.gz
+      sha256: 9f66be506ef7f4bd0722bf0bac65cd1160fdc3c735ed099d179f7c0a4e088dc9
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: bin/kubectl-ws
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.30.3/kubectl-ws-plugin_0.30.3_darwin_amd64.tar.gz
-      sha256: 938e9606f27a8ea8986d73d6d3311a611fa3dbc2e6773289f99319427136ce0a
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.0/kubectl-ws-plugin_0.31.0_darwin_amd64.tar.gz
+      sha256: 37b14701f79e1c1ec6948278870d0c3c5a4ef4716ae49dc728b5c673150f3183
       selector:
         matchLabels:
           os: darwin
           arch: amd64
-  shortDescription: KCP workspace cli plugin for kubectl.
+  shortDescription: kcp workspace cli plugin for kubectl.
   homepage: https://kcp.io/
   description: |
-    KCP workspace cli plugin for kubectl. Enables you to manage your KCP workspaces.
+    kcp workspace cli plugin for kubectl. Enables you to manage your kcp workspaces.
