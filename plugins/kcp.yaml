@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: kcp
 spec:
-  version: v0.31.2
+  version: v0.32.0
   platforms:
     - bin: bin/kubectl-kcp.exe
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.2/kubectl-kcp-plugin_0.31.2_windows_arm64.tar.gz
-      sha256: d005f3008f076738dc352fe5e3a59526e418329d1a089c011b89f5a25872dc4b
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.0/kubectl-kcp-plugin_0.32.0_windows_arm64.tar.gz
+      sha256: fd40c394bd741f6a7319818e7f18346f3ac8b7ca149d7cb1d6548e1cf01b8597
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: bin/kubectl-kcp.exe
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.2/kubectl-kcp-plugin_0.31.2_windows_amd64.tar.gz
-      sha256: 67d652c20dd08ca3e1d8fb50b55ddbffe68b1d529b36c7699077d1e7af91ce70
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.0/kubectl-kcp-plugin_0.32.0_windows_amd64.tar.gz
+      sha256: 105009917551b43a1cb693c3d31fec10e28d729f02d05c94a73dd92d89405d2e
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: bin/kubectl-kcp
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.2/kubectl-kcp-plugin_0.31.2_linux_arm64.tar.gz
-      sha256: eaacf54c210c3a0cf35e027c64e766ff709b60814738d03173b742391e8b3e94
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.0/kubectl-kcp-plugin_0.32.0_linux_arm64.tar.gz
+      sha256: c95f21b9d1589c8f6869ccd91f7ee4b82088a6ea0826b3f12a5b9b7829968b1e
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: bin/kubectl-kcp
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.2/kubectl-kcp-plugin_0.31.2_linux_amd64.tar.gz
-      sha256: e1b7a00f01114a7d50f5e5327ba96ea9b73223fd2db5011aff71b9af1c70c300
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.0/kubectl-kcp-plugin_0.32.0_linux_amd64.tar.gz
+      sha256: 4191823517bf17bb09b683a97ce675587becfc24382d302776af960226e04ab1
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: bin/kubectl-kcp
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.2/kubectl-kcp-plugin_0.31.2_darwin_arm64.tar.gz
-      sha256: a76120e7c84e58fc004ad216aa391f7a6a71c06cb230c824b8c08a888fbe6b89
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.0/kubectl-kcp-plugin_0.32.0_darwin_arm64.tar.gz
+      sha256: ba4be83a2f1bfe2ad3c56924b7d614456dae79b4dabe19d53a3798fb361facba
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: bin/kubectl-kcp
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.2/kubectl-kcp-plugin_0.31.2_darwin_amd64.tar.gz
-      sha256: a8d02bb0ff42920f0905048368846a67a8de57a8803eade251502b28ad8f086c
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.0/kubectl-kcp-plugin_0.32.0_darwin_amd64.tar.gz
+      sha256: 03caa53c1f849c926fc06b199069fe724d85486662b2489a72a75aff72e717e9
       selector:
         matchLabels:
           os: darwin
