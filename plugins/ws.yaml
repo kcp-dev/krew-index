@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: ws
 spec:
-  version: v0.32.3
+  version: v0.31.6
   platforms:
     - bin: bin/kubectl-ws.exe
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.3/kubectl-ws-plugin_0.32.3_windows_arm64.tar.gz
-      sha256: 0e9152e0c6230db650505ece47b6fbc5d3c1d07ca009b6aa67a0a596b46da80b
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.6/kubectl-ws-plugin_0.31.6_windows_arm64.tar.gz
+      sha256: 88b23f9559a109b0df45dd4f84c131fa92eeacaf28780f7dcc2df94a781bb293
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: bin/kubectl-ws.exe
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.3/kubectl-ws-plugin_0.32.3_windows_amd64.tar.gz
-      sha256: 1ae38fae99d85585aca9e944c288c9c49e5ab8b4e147298fc8ddaf86767d9602
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.6/kubectl-ws-plugin_0.31.6_windows_amd64.tar.gz
+      sha256: 83396e675f4645e7da5ec1688bdb37b4fc5c423a949763c8737f38a28a3aea08
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: bin/kubectl-ws
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.3/kubectl-ws-plugin_0.32.3_linux_arm64.tar.gz
-      sha256: bfa19d0ed4fa66d2b6d2e470b0f270656beb5b03f9cc3c44271ac0d7e5c155a4
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.6/kubectl-ws-plugin_0.31.6_linux_arm64.tar.gz
+      sha256: edad6a3557131eacdb8cdd72920f651f80a1cd53dee46e48dd7399aeb8385c2b
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: bin/kubectl-ws
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.3/kubectl-ws-plugin_0.32.3_linux_amd64.tar.gz
-      sha256: 21c338752adeaf322bcee83969ebcd79d82780117db05a81ac6239e81d9d8a8a
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.6/kubectl-ws-plugin_0.31.6_linux_amd64.tar.gz
+      sha256: f60eec64abe508e449e99a3d3e56df540f687c1f271a1e2210f5d9d2fcfd0e12
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: bin/kubectl-ws
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.3/kubectl-ws-plugin_0.32.3_darwin_arm64.tar.gz
-      sha256: 2161604d674ae96d3bed11259b7810252b15a46d64ca3df281880a2b941df055
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.6/kubectl-ws-plugin_0.31.6_darwin_arm64.tar.gz
+      sha256: e4d95382145f0fe3adcabbc5d2f2520008d473ae70a9799ae0abf6ae19771532
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: bin/kubectl-ws
-      uri: https://github.com/kcp-dev/kcp/releases/download/v0.32.3/kubectl-ws-plugin_0.32.3_darwin_amd64.tar.gz
-      sha256: 1d0f32d811b35083196e803f675e65bd2da5ac5f6b562b2db815dd9f1f41d655
+      uri: https://github.com/kcp-dev/kcp/releases/download/v0.31.6/kubectl-ws-plugin_0.31.6_darwin_amd64.tar.gz
+      sha256: 0a0456d45c81d61a846e75b1cdee418a3ecd6039976ecd9c7b36c969c3689893
       selector:
         matchLabels:
           os: darwin
